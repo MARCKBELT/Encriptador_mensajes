@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptación</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 class="titulo">Código Secreto</h1>
+
+    <main class="main">
+      <section class="form box">
+        <form action="">
+          <label for="input-texto">Solo letras minúsculas, sin acento</label>
+          <textarea name="text-input" id="text-input" class="text-input" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+          <p><span id="errorCampo"></span></p>
+          <input class="btn" type="button" value="encriptar!" id="btn-encriptar">
+          <input class="btn" type="button" value="desencriptar!" id="btn-desencriptar">
+        </form>
+      </section>
+    
+      <section class="msg box">
+        <label id="">Mensaje encriptado:</label>
+        <textarea name="msg" id="msg" class="text-input" cols="30" rows="10"></textarea>
+        <p><span id="text-copy"></span></p>
+        <input class="btn" type="button" value="copiar" id="btn-copy">
+      </section>
+    </main>
+    <footer class ="footer">Marco Beltran  | alura latam | Oracle One</footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
